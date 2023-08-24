@@ -1,0 +1,15 @@
+var1 = 1200
+var2 = int(input('>>>')) #são as opções de parcelamento
+if var2 == 1:
+    var3 = var1 * 0.1 #10% de desconto
+    print(f'o total é {var1 - var3}')
+elif var2 == 2:
+    var3 = var1 * 0.05 #5% de desconto
+    print(f'o total é {var1 - var3}')
+elif var2 == 3:
+    print(var1,' esse é seu total') # preço cheio
+elif var2 == 4:
+    var3 = var1 *0.05
+    print(f'o total é {(var1 + var3) /4}') # 5% de juros
+else:
+    print ('digita direito')
